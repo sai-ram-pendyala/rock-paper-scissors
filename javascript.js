@@ -21,14 +21,13 @@ function playRound(playerSelection, computerSelection) {
         return "You Win! Scissors beat Paper"
 }
 
-function game() {
-    // for(let i = 0; i < 5; i++) {
-        // const playerSelection = prompt("Enter your choice")
-        const computerSelection = getComputerChoice()
-        console.log(playRound(playerSelection.toLocaleLowerCase(), computerSelection))
-    // }
+function game(e) {
+    const playerSelection = e.target.id;
+    const computerSelection = getComputerChoice();
+    const res = playRound(playerSelection, computerSelection);
+    const resTag = document.querySelector('#result');
+    resTag.textContent = res;
 }
 
-game()
-
-
+let buttons = document.querySelectorAll('.btn');
+buttons.forEach(button => button.addEventListener('click', game));
