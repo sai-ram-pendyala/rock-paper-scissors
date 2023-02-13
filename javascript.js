@@ -22,11 +22,11 @@ function playRound(playerSelection, computerSelection) {
 }
 
 function game() {
-    for(let i = 0; i < 5; i++) {
-        const playerSelection = prompt("Enter your choice")
+    // for(let i = 0; i < 5; i++) {
+        // const playerSelection = prompt("Enter your choice")
         const computerSelection = getComputerChoice()
         console.log(playRound(playerSelection.toLocaleLowerCase(), computerSelection))
-    }
+    // }
 }
 
 game()
