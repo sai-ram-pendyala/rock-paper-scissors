@@ -1,7 +1,30 @@
+body {
+    padding: 52px;
+    color: rgb(255, 255, 255);
+    background: url('pexels-felix-mittermeier-956999.jpg');
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px; 
+}
+
 #heading {
-    text-align: center;
+    /* text-align: center; */
     font-weight: 900;
-    font-size: xx-large;
+    font-size: 60px;
+}
+
+#result {
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+#txt {
+    font-weight: 700;
+    font-size: 40px;
 }
 
 .buttons {
@@ -9,10 +32,10 @@
     align-content: center;
     justify-content: center;
     gap: 16px;
-    margin-top: 50px;
 }
 
 .btn {
+    width: 150px;
     cursor: pointer;
     color: rgb(255, 255, 255);
     background-color: rgb(13, 110, 253);
@@ -22,7 +45,7 @@
     text-align: center;
     border: 1px solid transparent;
     padding: 6px 12px;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 0.25rem;
 }
 
