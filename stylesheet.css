@@ -1,0 +1,40 @@
+#heading {
+    text-align: center;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.buttons {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 50px;
+}
+
+.btn {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 110, 253);
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: 0.25rem;
+}
+
+.btn:hover {
+    color: rgb(13, 110, 253);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(13, 110, 253);
+}
+
+.btn:active {
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+
+
