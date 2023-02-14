@@ -1,7 +1,9 @@
 body {
     padding: 52px;
     color: rgb(255, 255, 255);
-    background: url('pexels-felix-mittermeier-956999.jpg');
+    background: #7F7FD5;  
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); 
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); 
     background-size: cover;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
@@ -12,12 +14,11 @@ body {
 }
 
 #heading {
-    /* text-align: center; */
     font-weight: 900;
     font-size: 60px;
 }
 
-#result {
+#result, #final {
     margin-top: 50px;
     font-size: 50px;
 }
@@ -25,6 +26,16 @@ body {
 #txt {
     font-weight: 700;
     font-size: 40px;
+}
+
+#score {
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+span {
+    display: inline-block;
+    margin-top: 10px;
 }
 
 .buttons {
